@@ -1,7 +1,7 @@
 const productos = [
-  { id: 1, nombre: "Camiseta", precio: 3200, imagen: "imagenes/camisetas.png" },
-  { id: 2, nombre: "Pantalón", precio: 5100, imagen: "imagenes/Pantalones.png" },
-  { id: 3, nombre: "Zapatillas", precio: 9000, imagen: "imagenes/zapatillas.png" }
+  { id: 1, nombre: "Camiseta", precio: 3200, imagen: "./imagenes/camisetas.png" },
+  { id: 2, nombre: "Pantalón", precio: 5100, imagen: "./imagenes/Pantalones.png" },
+  { id: 3, nombre: "Zapatillas", precio: 9000, imagen: "./imagenes/zapatillas.png" }
 ];
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
