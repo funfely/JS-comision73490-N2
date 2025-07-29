@@ -57,3 +57,35 @@ h1 {
     height: auto;
   }
 }
+
+@media (max-width: 600px) {
+  body {
+    margin: 5px;
+  }
+  #productos {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .card {
+    width: 98vw;
+    max-width: 340px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 0 auto 10px auto;
+    display: block;
+    border-radius: 4px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  #carrito {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
